@@ -90,11 +90,9 @@ img{
 }
 #main-navigation #logo{
   flex-basis: auto;
-  flex-grow: 1
-    /*display: flex;*/
-    /*align-self: flex-start;*/
-
+  flex-grow: 1 /* make it the only header element that grows. the text inside is left-aligned so this takes care of it*/
 }
+
 main{
     padding: 20px;
     background-color: #444;
