@@ -132,13 +132,23 @@ aside img{
     margin-bottom: 30px;
     border: 2px solid white;
 }
+
 article{
+		display: flex;
     background-color: white;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
     margin-bottom: 20px;
 }
+
+article header{
+		display: flex;
+
+}
+
 article h2{
+		display: flex;
+		align-self: flex-start;
     line-height: 1em;
     font-weight: bold;
     text-align: center;
@@ -148,6 +158,7 @@ article h2{
     text-transform: uppercase;
 }
 article time{
+		display: flex;
     font-size: 0.8em;
     text-align: center;
     display: block;
@@ -155,6 +166,7 @@ article time{
     color: #666;
 }
 article img{
+		display: flex;
     /*
         TODO:
         - Float article images to the right
