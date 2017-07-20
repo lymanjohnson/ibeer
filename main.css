@@ -72,7 +72,7 @@ img{
 
 #main-navigation{
     background: #444;
-		border: 4px solid blue;
+		/*border: 4px solid blue;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -81,12 +81,12 @@ img{
 #main-navigation a{
     display: flex;
     color: white;
-    background-color: red;
-    border: 1px solid green;
+    /*background-color: red;
+    border: 1px solid green;*/
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
-		border: 2px solid red;
+		/*border: 2px solid red;*/
     align-self: flex-end;
 
     /*
@@ -96,19 +96,21 @@ img{
 }
 #main-navigation #logo{
   flex-basis: auto;
-  flex-grow: 1 /* make it the only header element that grows. the text inside is left-aligned so this takes care of it*/
+  flex-grow: 1; /* make it the only header element that grows. the text inside is left-aligned so this takes care of it*/
 }
 
 main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
+		border: 5px solid red;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
 }
+
 aside{
     padding: 20px;
     background-color: #eee;
