@@ -44,6 +44,9 @@ img{
 
 
 #side-by-side{
+	/*margin-top: -100px*/
+	position: relative;
+	z-index: 200;
 
 }
 
@@ -60,6 +63,8 @@ img{
     background-image: url(./img/header-img.jpg);
     background-size: cover;
     background-position: right bottom;
+		position: relative;
+		z-index: 100;
 
 }
 
@@ -194,8 +199,16 @@ article footer p{
 }
 
 #site-footer{
-
-    background: #333;
+	text-align: center;
+	padding: 20px;
+	font-size: .6em;
+	background-size: cover;
+	background-position: right bottom;
+	align-content: center;
+	vertical-align: middle;
+	color: white;
+  background: #333;
+	margin-top: 100px;
     /*
         TODO:
         - Style the site footer
