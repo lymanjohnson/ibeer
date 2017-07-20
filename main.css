@@ -158,20 +158,14 @@ article time{
     margin-bottom: 30px;
     color: #666;
 }
+
 article img{
-		/*display: flex;
-		float:right;
-		flex-basis: auto;
-		flex-grow: 0;
-		flex-shrink: 1;
-		align-self: flex-end;*/
+		border: 2px solid red;
+
 }
 
 article p{
-		/*display: flex;
-		flex-basis: auto;
-		flex-grow: 1;
-		align-self: flex-start;*/
+	border: 2px solid red;
 }
 
 article footer p{
