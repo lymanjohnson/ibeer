@@ -50,8 +50,7 @@ img{
     background-position: right bottom;
 }
 
-#site-header div h1,
-#site-header div h3{
+#site-header div h1, #site-header div h3{
     margin: 0;
     line-height: 1;
     position: relative;
@@ -59,33 +58,30 @@ img{
 #site-header div h1{
     top: 20px;
 }
+
 #site-header div h3{
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
     font-family: 'Dancing Script', cursive;
-    /*
-        DONE:
-        - Use the script font: 'Dancing Script' fot this text
-    */
 }
+
 #main-navigation{
     background: #444;
 		border: 4px solid blue;
     display: flex;
-    /*
-        TODO:
-        - Use Flexbox to arrange the navigation links
-    */
+    flex-direction: row;
+    justify-content: flex-end;
 }
+
 #main-navigation a{
     display: flex;
-
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
 		border: 2px solid red;
+    align-self: flex-end;
 
     /*
         TODO:
@@ -93,13 +89,11 @@ img{
     */
 }
 #main-navigation #logo{
-    /*margin-right: 400px;*/
+  flex-basis: auto;
+  flex-grow: 1
+    /*display: flex;*/
+    /*align-self: flex-start;*/
 
-    /*
-        TODO:
-        - Flexbox - The logo needs to take up more space
-        that the other links
-    */
 }
 main{
     padding: 20px;
