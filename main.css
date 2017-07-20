@@ -38,26 +38,18 @@ img{
     */
 }
 #site-header{
-    /*
-        TODO
-        - Flexbox property here
-    */
 }
-#site-header div{
+
+
+#site-header div{ /*"i beer - stay thirsty part"*/
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
     background-image: url(./img/header-img.jpg);
-
-    /*
-        TODO:
-        - Add a background image "header-img.jpg"
-        make sure that the path to the image is correct
-    */
-
     background-size: cover;
     background-position: right bottom;
 }
+
 #site-header div h1,
 #site-header div h3{
     margin: 0;
@@ -80,6 +72,7 @@ img{
 #main-navigation{
     background: #444;
 		border: 4px solid blue;
+    display: flex;
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -87,7 +80,7 @@ img{
 }
 #main-navigation a{
     display: flex;
-		
+
     color: white;
     text-decoration: none;
     text-transform: uppercase;
