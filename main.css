@@ -138,13 +138,11 @@ article{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
     margin-bottom: 20px;
-}
-
-article header{
 
 }
 
-article h2{
+
+article h2{ /* article title */
     line-height: 1em;
     font-weight: bold;
     text-align: center;
@@ -161,16 +159,32 @@ article time{
     color: #666;
 }
 article img{
+		/*display: flex;
 		float:right;
+		flex-basis: auto;
+		flex-grow: 0;
+		flex-shrink: 1;
+		align-self: flex-end;*/
+}
 
+article p{
+		/*display: flex;
+		flex-basis: auto;
+		flex-grow: 1;
+		align-self: flex-start;*/
 }
+
 article footer p{
-    /*
-        TODO:
-        - Style the article footer
-        HINT: Look to the article header;
-    */
+	clear: both;
+	line-height: 1em;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0 0px 0;
+	padding: 10px 0 0px 0;
+	border-top: 1px solid #ccc;
+	text-transform: uppercase;
 }
+
 #site-footer{
 
     background: #333;
