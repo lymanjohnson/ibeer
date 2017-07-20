@@ -31,6 +31,9 @@ img{
 .wrapper{
     width: 1000px;
     margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
     /*
         TODO:
         - Center up the page (DONE)
@@ -40,8 +43,13 @@ img{
 }
 
 
+#side-by-side{
+
+}
 
 #site-header{
+	width: 1000px;
+
 }
 
 
@@ -52,6 +60,7 @@ img{
     background-image: url(./img/header-img.jpg);
     background-size: cover;
     background-position: right bottom;
+
 }
 
 #site-header div h1, #site-header div h3{
@@ -59,6 +68,7 @@ img{
     line-height: 1;
     position: relative;
 }
+
 #site-header div h1{
     top: 20px;
 }
@@ -104,6 +114,7 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
 		border: 5px solid red;
+		width: 600px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -115,6 +126,7 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
+		width: 200px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -138,6 +150,7 @@ article{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
     margin-bottom: 20px;
+
 
 }
 
