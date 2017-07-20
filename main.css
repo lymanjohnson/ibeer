@@ -9,18 +9,18 @@ light tan: #eeebda
 
 */
 
-
-
 body{
     font-family: 'Noto Serif', serif;
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
 }
+
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
     margin-top: 0;
 }
+
 img{
     max-width: 100%;
     padding: 0;
@@ -47,7 +47,7 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-    background-image: url(./img/header-img.jpg)
+    background-image: url(./img/header-img.jpg);
 
     /*
         TODO:
@@ -79,18 +79,20 @@ img{
 }
 #main-navigation{
     background: #444;
-
+		border: 4px solid blue;
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
     */
 }
 #main-navigation a{
-    display: block;
+    display: flex;
+		
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+		border: 2px solid red;
 
     /*
         TODO:
@@ -98,7 +100,7 @@ img{
     */
 }
 #main-navigation #logo{
-    margin-right: 400px;
+    /*margin-right: 400px;*/
 
     /*
         TODO:
